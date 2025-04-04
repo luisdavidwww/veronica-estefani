@@ -1,0 +1,621 @@
+
+
+
+.header-container {
+  background-image: url('../images/Recurso-1.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 150vh; /* Siempre ocupa toda la pantalla */
+  min-height: 182vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.Invitado-container {
+  background-image: url('../images/Recurso-2.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 80vh; /* Siempre ocupa toda la pantalla */
+  min-height: 200vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Fecha-container {
+  background-image: url('../images/Recurso-4.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 80vh; /* Siempre ocupa toda la pantalla */
+  min-height: 190vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CuentaRegresiva-container{
+  background-image: url('../images/Recurso-3.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 150vh; /* Siempre ocupa toda la pantalla */
+  min-height: 185vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Lugar-container{
+  background-image: url('../images/Recurso -5.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 180vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Confirma-container{
+  background-image: url('../images/Recurso-7.jpg');
+  background-color: rgba(0,0,0,0);
+  background-size: cover; /* Ancho fijo de 50rem, altura automática */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100vh; /* Siempre ocupa toda la pantalla */
+  min-height: 335vh;
+  width: 50rem;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.EndLogo-container{
+  background-image: url('../images/Recurso-8.jpg');
+    background-color: rgba(0,0,0,0);
+    background-size: 50rem auto;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 30vh;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+  .tilte_Main{
+    font-family: 'Dragnie-Regular';
+    font-size: 5rem;
+  }
+  .tilte_Secundary{
+    font-family: 'Aurora-Magnollia';
+    font-size: 5rem;
+  }
+  .Subtilte_Main{
+    font-family: 'Aurora-Magnollia-two';
+    font-size: 5rem;
+  }
+
+
+
+  .containerImg{
+    display: flex;
+    position: relative;
+  }
+
+  .imgAbsolute{
+    display: flex;
+    position: absolute;
+    top: -50%;
+    width: 40%;
+    right: 0%;
+    z-index: 5;
+  }
+
+
+
+  .btn-outline-one{
+    display: flex;
+    z-index: 100;
+    background-color: #608BBA;
+    padding: 2rem 4rem;
+    border: 4px solid #ffffff;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Dragnie-Regular';
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.3); /* Sombra */
+
+    text-shadow: 
+    -0.3px  0.3px 0 #ffffff,  
+     0.3px  0.3px 0 #ffffff; 
+}
+
+.btn-outline-one:hover{
+  color: #88B7DD;
+  background-color: #365884;
+  border: 3px solid #ffffff;
+}
+
+
+
+
+.Confirma-text{
+  display: flex;
+  margin-top: -135rem;
+}
+
+.Confirma-text-two{
+  display: flex;
+  position: absolute;
+  margin-top: 40rem;
+}
+
+
+
+
+  @media only screen and (max-width: 960px) { 
+
+    .header-container {
+      background-image: url('../images/Recurso-1.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 85vh; /* Siempre ocupa toda la pantalla */
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .Invitado-container {
+      background-image: url('../images/Recurso-2.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 87vh; /* Siempre ocupa toda la pantalla */
+      min-height: 87vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Fecha-container {
+      background-image: url('../images/Recurso-4.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 85vh; /* Siempre ocupa toda la pantalla */
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .CuentaRegresiva-container{
+      background-image: url('../images/Recurso-3.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 82vh; /* Siempre ocupa toda la pantalla */
+      min-height: 82vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Lugar-container{
+      background-image: url('../images/Recurso -5.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 90vh; /* Siempre ocupa toda la pantalla */
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+
+    }
+    .Confirma-container{
+      background-image: url('../images/Recurso-7.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 140vh; /* Siempre ocupa toda la pantalla */
+      min-height: 197vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    
+    .EndLogo-container{
+      background-image: url('../images/Recurso-8.jpg');
+      background-size: cover; /* Ajusta la imagen sin deformarla */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: 20vh; /* Siempre ocupa toda la pantalla */
+      min-height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+  /*
+    .header-container {
+      background-image: url('../images/Recurso-1.jpg');
+      background-size: 100% auto; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Invitado-container {
+      background-image: url('../images/Recurso-2.jpg');
+      background-size: 100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Fecha-container {
+      background-image: url('../images/Recurso-3.jpg');
+      background-size: 100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .CuentaRegresiva-container{
+      background-image: url('../images/Recurso-4.jpg');
+      background-size: 100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 52vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Lugar-container{
+      background-image: url('../images/Recurso-5.jpg');
+      background-size: 100% auto; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    
+    }
+    .Confirma-container{
+      background-image: url('../images/Recurso-7.jpg');
+      background-size: 100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 135vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+      padding: 0px;
+    }
+    
+    .EndLogo-container{
+      background-image: url('../images/Recurso-8.jpg');
+      background-size: 100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      width: 100%;
+      height: auto;
+      min-height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    */
+
+
+
+
+
+
+
+
+
+
+   /*
+    .header-container {
+      background-image: url('../images/Recurso-1.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 131vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Invitado-container {
+      background-image: url('../images/Recurso-2.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 71vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Fecha-container {
+      background-image: url('../images/Recurso-3.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 133.7vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .CuentaRegresiva-container{
+      background-image: url('../images/Recurso-4.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 57.8vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    .Lugar-container{
+      background-image: url('../images/Recurso-5.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .Confirma-container{
+      background-image: url('../images/Recurso-7.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 135vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+    .EndLogo-container{
+      background-image: url('../images/Recurso-8.jpg');
+      background-color: rgba(0,0,0,0);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+      */
+
+    .containerImg{
+      display: flex;
+      position: relative;
+    }
+
+    .imgAbsolute{
+      display: flex;
+      position: absolute;
+      margin-top: -6rem;
+      top: -50%;
+      width: 50%;
+      right: 0%;
+      z-index: 5;
+    }
+
+
+
+
+
+    
+  .btn-outline-one{
+    display: flex;
+    z-index: 100;
+    background-color: #608BBA;
+    padding: 0.5rem 2rem;
+    border: 3px solid #ffffff;
+    transition: all 0.3s ease-out;
+    border-radius: 50px;
+    text-decoration-line: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0rem; 
+    font-family: 'Dragnie-Regular';
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-decoration: none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.btn-outline-one:hover{
+  color: #88B7DD;
+  background-color: #365884;
+  border: 3px solid #ffffff;
+}
+
+
+.Confirma-text{
+  display: flex;
+  margin-top: -275%;
+}
+
+.Confirma-text-two{
+  display: flex;
+  margin-top: 80%;
+}
+
+  }

@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'Dragnie-Regular';
+    src: url('../fonts/dragnie.otf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+  }
+
+
+@font-face {
+    font-family: 'Aurora-Magnollia';
+    src: url('../fonts/Aurora-Magnollia-Script-BF6577ba84e768d.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal ;
+  }
+
+  @font-face {
+    font-family: 'Aurora-Magnollia-two';
+    src: url('../fonts/Aurora-Magnollia-Script-Italic-BF6577ba84e31bb.otf') format('truetype');
+    font-weight: normal ;
+    font-style: normal;
+  }

@@ -1,0 +1,280 @@
+.navbar {
+  background: #497AA5;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  position: sticky;
+  font-family: 'Dragnie-Regular';
+  top: 0;
+  z-index: 999;
+  letter-spacing: 0.7px;
+
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-top: 0.8rem;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-color: #ef3e33;
+}
+
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-bottom: 4px solid transparent;
+}
+
+.nav-links_active {
+  /* background-color: #C5CF2F;*/
+  border-bottom: 4px solid #C5CF2F;
+  border-radius: 0px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links:hover {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-bottom: 4px solid #C5CF2F;
+}
+
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+
+
+
+.nav-links-two {
+  display: flex;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family:'Dragnie-Regular';
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 0rem 0.5rem;
+  margin: 0rem 0.7rem;
+  transition: all 0.2s ease-out;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 999 !important;
+  letter-spacing: 2px;
+}
+
+
+.nav-links-two:hover {
+  padding: auto;
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-two::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Subrayado gris siempre visible */
+  height: 2px;
+  background-color: #365884; /* Color gris */
+  z-index: -1; /* Coloca debajo del contenido */
+}
+
+
+.nav-links-two::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #DCF1FF ;
+  transition: width 0.5s ease, left 0.5s ease; 
+}
+
+.nav-links-two:hover::after {
+  width: 100%;
+
+}
+
+.nav-links-two:not(:hover)::after {
+  width: 0; 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+  .navbar-logo {
+    display: block;
+    position: absolute;
+    padding-top: 0.5rem;
+    left: 6%;
+  }
+
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    opacity: 1;
+    margin-top: 0px;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    display: block;
+    background: #497AA5;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    width: 100%;
+    padding-left: 0rem;
+    margin-top: 0px;
+  }
+
+  .nav-links-two {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    border-bottom: 3px solid transparent;
+  }
+
+
+  
+
+  .nav-links-two:hover {
+    padding: auto;
+    color: rgb(255, 255, 255);
+    font-size: 0.91rem;
+    font-weight: 500;
+    transition: all 0.2s ease-out;
+  }
+  
+  .nav-links-two::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Subrayado gris siempre visible */
+    height: 0px;
+    background-color: transparent; /* Color gris */
+  }
+  
+  
+  .nav-links-two::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: transparent ;
+    transition: width 0.5s ease, left 0.5s ease; 
+  }
+  
+  .nav-links-two:hover::after {
+    width: 100%;
+  
+  }
+  
+  .nav-links-two:not(:hover)::after {
+    width: 0; 
+  }
+
+
+
+
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #C5CF2F;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #C5CF2F;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+}
