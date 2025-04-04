@@ -604,10 +604,11 @@
 }
 
 .btn-outline-one:hover{
-  color: #88B7DD;
-  background-color: #365884;
-  border: 3px solid #ffffff;
+  color: #f6eb00;
+  background-color: #bd0958;
+  border: 3px solid #bd0958;
 }
+
 
 
 .Confirma-text{
