@@ -69,10 +69,10 @@ const CuentaRegresiva = () => {
                 <span className='time-label'>MIN</span>
               </div>
               <div className='time-block'>
-                <span className='time-value'>{timeLeft.seconds}
+                <span className='time-value' style={{ color:'#f55c96' }}>{timeLeft.seconds}
                 <span className='time-label-point'></span>
                 </span>
-                <span className='time-label'>SEG</span>
+                <span className='time-label' >SEG</span>
               </div>
             </>
           ) : (
