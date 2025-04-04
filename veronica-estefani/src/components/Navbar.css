@@ -1,12 +1,12 @@
 .navbar {
-  background: #497AA5;
+  background: #e63b91;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
   position: sticky;
-  font-family: 'Dragnie-Regular';
+  font-family: 'Romantic-Lovely';
   top: 0;
   z-index: 999;
   letter-spacing: 0.7px;
@@ -55,7 +55,7 @@
 
 .nav-links_active {
   /* background-color: #C5CF2F;*/
-  border-bottom: 4px solid #C5CF2F;
+  border-bottom: 4px solid #7d1039;
   border-radius: 0px;
   transition: all 0.2s ease-out;
 }
@@ -88,7 +88,7 @@
   display: flex;
   position: relative;
   color: rgb(255, 255, 255);
-  font-family:'Dragnie-Regular';
+  font-family:'Romantic-Lovely';
   font-size: 1.3rem;
   text-decoration: none;
   padding: 0rem 0.5rem;
@@ -116,7 +116,7 @@
   left: 0;
   width: 100%; /* Subrayado gris siempre visible */
   height: 2px;
-  background-color: #365884; /* Color gris */
+  background-color: #af1d5595; /* Color gris */
   z-index: -1; /* Coloca debajo del contenido */
 }
 
@@ -128,7 +128,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #DCF1FF ;
+  background-color: #f6eb00      ;
   transition: width 0.5s ease, left 0.5s ease; 
 }
 
@@ -176,7 +176,7 @@
 
   .nav-menu.active {
     display: block;
-    background: #497AA5;
+    background: #e63b91    ;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -243,7 +243,7 @@
   .menu-icon {
     display: block;
     position: absolute;
-    top: -10%;
+    top: -25%;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;

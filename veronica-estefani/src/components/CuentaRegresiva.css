@@ -14,6 +14,15 @@
     margin: 0rem;
   }
 
+  .container-btn{
+    display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      margin-top: 2rem;
+      width: 60%;
+  }
+
 
 .flex-container-main-Conutdown{
     justify-content: center;
@@ -21,24 +30,32 @@
     width: 100%;
 
 }
+.contenedor-titulos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
 
 .title-Conutdown{
     justify-content: center;
     display: flex;
     width: 100%;
     text-align: center;
-    font-family:'Dragnie-Regular';
+    position: absolute;
+    font-family:'Romantic-Lovely';
     font-weight: 800;
     font-size: 3rem;
     text-decoration: none;
     letter-spacing: 3px;
-    color: #608BBA;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    /* Borde en la fuente */
+    color: #7d1039;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    /* Borde en la fuente
     text-shadow: 
-        -0.3px  0.3px 0 #608BBA,  
-         0.3px  0.3px 0 #608BBA; 
+        -0.3px  0.3px 0 #7d1039,
+         0.3px  0.3px 0 #7d1039; 
+          */
 }
 
 
@@ -53,7 +70,7 @@
   text-decoration: none;
   letter-spacing: 2.0px;
   color: #ffffff;
-  margin-top: 2rem;
+  margin-top: 0rem;
 
   text-shadow: 
   -0.3px  0.3px 0 #608BBA,  
@@ -71,28 +88,28 @@
 .flex-container-main-Conutdown {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
     gap: 1rem; /* Espacio entre los bloques de tiempo */
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-top: 140%;
     }
   
   .time-block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #608BBA;
+    color: #7d1039      ;
     
   }
   
   .time-value {
-    font-family:'Dragnie-Regular';
+    font-family:'Romantic-Lovely';
+    line-height: 4rem;
     font-size: 5rem; /* Tamaño del valor de tiempo */
     font-weight: bold;
   }
   .time-label-point{
-    font-family:'Dragnie-Regular';
+    font-family:'Arial', sans-serif;
     font-size: 4rem; /* Tamaño del valor de tiempo */
     position: relative;
     margin-left: 1rem;
@@ -100,10 +117,10 @@
   }
   
   .time-label {
-    font-family:'Dragnie-Regular';
+    font-family:'Arial', sans-serif;
     font-size: 2; /* Tamaño del label */
     letter-spacing: 1px;
-    color: #608BBA; /* Color del texto del label */
+    color: #7d1039; /* Color del texto del label */
     margin-top: 0px;
   }
 
@@ -125,51 +142,85 @@
       align-items: center;
       font-family: 'PT Sans', sans-serif;
     }
-  
+
+
+
+    .container-btn{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      margin-top: 2rem;
+      width: 80%;
+
+    }
+
+
 
     .title-Conutdown{
 
-      justify-content: center;
+    justify-content: center;
     display: flex;
+    position: absolute;
     width: 100%;
     text-align: center;
-    font-family:'Dragnie-Regular';
+    font-family:'Romantic-Lovely';
     font-size: 1.7rem;
     font-weight: 900;
     text-decoration: none;
     letter-spacing: 2px;
-    color: #608BBA;
-    margin-top: 0rem;
-    margin-bottom: 1rem;
+    color: #7d1039      ;
+    margin-bottom: 0rem;
+
+
+  }
+  .title-Conutdown.basic{
+
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family:'Romantic-Lovely';
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #7d1039      ;
+    margin-bottom: 0rem;
 
 
   }
 
   .time-value {
-    font-family:'Dragnie-Regular';
-    font-size: 3.5rem; /* Tamaño del valor de tiempo */
+    font-family:'Romantic-Lovely';
+    font-size: 2.8rem; /* Tamaño del valor de tiempo */
     font-weight: bold;
+    line-height: 1rem;
+    padding: 0px;
   }
   .time-label-point{
-    font-family:'Dragnie-Regular';
-    font-size: 3.3rem; /* Tamaño del valor de tiempo */
+    font-family:'Arial', sans-serif;
+    line-height: 2rem;
+    font-size: 1.3rem; /* Tamaño del valor de tiempo */
     position: relative;
-    margin-left: 0.3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .time-label {
-    font-family:'Dragnie-Regular';
-    font-size: 0.8rem; /* Tamaño del label */
+    font-family:'Arial', sans-serif;
+    font-size: 0.6rem; /* Tamaño del label */
     letter-spacing: 1.6px;
-    color: #485e82; /* Color del texto del label */
-    margin-top: 10%;
+    color: #7d1039; /* Color del texto del label */
+    margin-top: 1rem;
   }
   .time-label.dia {
-    font-family:'Dragnie-Regular';
-    font-size: 0.8rem; /* Tamaño del label */
-    letter-spacing: 1.6px;
-    color: #485e82; /* Color del texto del label */
-    margin-top: 18%;
+    font-family:'Arial', sans-serif;
+    font-size: 0.6rem; /* Tamaño del label */
+    letter-spacing: 0.2px;
+    color: #7d1039; /* Color del texto del label */
+    margin-top: 1rem;
   }
 
   
@@ -178,11 +229,9 @@
   .flex-container-main-Conutdown {
     display: flex;
     justify-content: center;
-    position: absolute;
-    gap: 1rem; /* Espacio entre los bloques de tiempo */
-    width: 50%;
-    bottom: 0;
-
+    gap: 0.2rem; /* Espacio entre los bloques de tiempo */
+    width: 20%;
+    margin-top: 140%;
     }
   
 

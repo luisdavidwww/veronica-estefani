@@ -89,7 +89,7 @@
   background-repeat: no-repeat;
   background-blend-mode: darken;
   height: 100vh; /* Siempre ocupa toda la pantalla */
-  min-height: 180vh;
+  min-height: 200vh;
   width: 50rem;
   display: flex;
   position: relative;
@@ -174,20 +174,22 @@
 
   .btn-outline-one{
     display: flex;
+    justify-content: center;
     z-index: 100;
-    background-color: #608BBA;
+    background-color: #f6eb00;
     padding: 2rem 4rem;
-    border: 4px solid #ffffff;
+    border: 4px solid #f6eb00;
     transition: all 0.3s ease-out;
     border-radius: 50px;
     text-decoration-line: none;
     outline: none;
     cursor: pointer;
     margin-top: 0rem; 
-    font-family: 'Dragnie-Regular';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
-    color: #ffffff;
-    margin-top: 2rem;
+    font-weight: 600;
+    color: #bd0958;
+    margin-top: 3rem;
     text-decoration: none;
     letter-spacing: 1px;
     box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.3); /* Sombra */
@@ -195,12 +197,13 @@
     text-shadow: 
     -0.3px  0.3px 0 #ffffff,  
      0.3px  0.3px 0 #ffffff; 
+     width: 100%;
 }
 
 .btn-outline-one:hover{
-  color: #88B7DD;
-  background-color: #365884;
-  border: 3px solid #ffffff;
+  color: #f6eb00;
+  background-color: #bd0958;
+  border: 3px solid #bd0958;
 }
 
 
@@ -577,28 +580,27 @@
     }
 
 
-
-
-
-    
-  .btn-outline-one{
-    display: flex;
-    z-index: 100;
-    background-color: #608BBA;
-    padding: 0.5rem 2rem;
-    border: 3px solid #ffffff;
-    transition: all 0.3s ease-out;
-    border-radius: 50px;
-    text-decoration-line: none;
-    outline: none;
-    cursor: pointer;
-    margin-top: 0rem; 
-    font-family: 'Dragnie-Regular';
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin-top: 1rem;
-    text-decoration: none;
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3); /* Sombra */
+.btn-outline-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: #f6eb00;
+  padding: 0.5rem 2rem;
+  border: 3px solid #f6eb00;
+  transition: all 0.3s ease-out;
+  border-radius: 50px;
+  text-decoration-line: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0rem; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #bd0958;
+  text-decoration: none;
+  box-shadow: 2px 3px 3px #13131309; /* Sombra */
+  width: 100%;
 }
 
 .btn-outline-one:hover{

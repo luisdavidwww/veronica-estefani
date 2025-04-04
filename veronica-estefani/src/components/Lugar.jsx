@@ -10,14 +10,21 @@ const Lugar = () => {
     <>
 
         <div className='Lugar-container'>
+          <div className='contenedor-titulos'></div>
+                <div className='container-btn'>
+                  <div className='title-Conutdown' > Referencias</div>
+                    <a href='https://sites.google.com/view/veronica-y-estefani/p%C3%A1gina-principal?authuser=3' style={{textDecoration:'none'}}>
+                      <button className='btn-outline-one' style={{marginTop:'3.5rem'}}
+                          >CLICK AQUÍ
+                      </button>
+                    </a>
+                </div>
 
-                  <div className='title-Conutdown' style={{marginTop:'5rem'}}> Av. Principal de Las
-                  <br /> Cuibas, Agua Viva. </div>
-                  
-                <div className='us-text'>
-                    <a href='https://maps.app.goo.gl/W8vtAhKsb9moCqow9' style={{textDecoration:'none'}}>
-                      <button className='btn-outline-one'
-                          >Ver Ubicación
+                <div className='container-btn' style={{marginTop:'60%'}}>
+                  <div className='title-Conutdown basic' > Confirmar asistencia</div>
+                    <a href='https://wa.link/u5pktr' style={{textDecoration:'none', justifyContent:'center'}}>
+                      <button className='btn-outline-one' style={{marginTop:'3.5rem'}}
+                          >CLICK AQUÍ
                       </button>
                     </a>
                 </div>
